@@ -1,0 +1,38 @@
+        *,
+         ::after,
+         ::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 1rem 4rem;
+            color: antiquewhite;
+            background-color: orangered;
+            border: 0ch;
+            border-radius: 10px;
+            font-size: 3rem;
+            margin-top: 2rem;
+        }
+        
+        p {
+            font-size: 10rem;
+            color: aliceblue;
+            margin-top: 10rem;
+        }
